@@ -1,3 +1,4 @@
+import hmac
 import importlib
 import json
 import streamlit as st
@@ -11,6 +12,46 @@ import field_renderer as fr
 importlib.reload(dm)
 importlib.reload(fr)
 
+st.set_page_config(page_title="FTC Scouting Hub", layout="wide", initial_sidebar_state="collapsed")
+
+
+def _check_credentials(username: str, password: str) -> bool:
+    users = st.secrets.get("auth_users", {})
+    clean_user = (username or "").strip()
+    if clean_user not in users:
+        return False
+    expected_pw = str(users[clean_user])
+    return hmac.compare_digest((password or "").encode("utf-8"), expected_pw.encode("utf-8"))
+
+
+def _require_login():
+    if st.session_state.get("authenticated"):
+        return
+
+    st.markdown("### 🔐 FTC Scouting Hub — Sign In")
+    st.caption("Enter your team credentials to continue.")
+
+    with st.form("login_form", clear_on_submit=False):
+        username = st.text_input("Username")
+        password = st.text_input("Password", type="password")
+        submitted = st.form_submit_button("Log In", type="primary")
+
+    if submitted:
+        if _check_credentials(username, password):
+            st.session_state.authenticated = True
+            st.session_state.auth_user = username.strip()
+            st.rerun()
+        else:
+            st.error("Invalid username or password.")
+
+    st.stop()
+
+
+if "authenticated" not in st.session_state:
+    st.session_state.authenticated = False
+
+_require_login()
+
 if not hasattr(fr, "render_draggable_field"):
     st.error(
         f"Loaded field_renderer from: {getattr(fr, '__file__', 'unknown')} — missing render_draggable_field. "
@@ -18,7 +59,6 @@ if not hasattr(fr, "render_draggable_field"):
     )
     st.stop()
 
-st.set_page_config(page_title="FTC Scouting Hub", layout="wide", initial_sidebar_state="collapsed")
 dm.init_storage()
 
 NUM_CELLS = len(dm.QR_COLUMNS)  # 23 cells matching the 23 QR fields
@@ -441,7 +481,6 @@ with tab_pick:
             default=[]
         )
 
-        # Compute each team's own match sequence (1, 2, 3, ...) across all recorded matches
         sequenced_df = scouting_df.copy()
         sequenced_df["team_num"] = sequenced_df["team_num"].astype(int)
         sequenced_df = sequenced_df.sort_values(["team_num", "match_num"]).reset_index(drop=True)
