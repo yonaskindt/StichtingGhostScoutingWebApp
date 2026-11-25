@@ -1,0 +1,84 @@
+scouter_initials,match_num,team_num,alliance,no_show,auto_moved,auto_park,auto_total_shot,auto_total_scored,tele_pick_up,hive_total_pollen,hive_scored_pollen,hive_total_nectar,hive_scored_nectar,flower_scored_pollen,flower_scored_nectar,flower_missed,comments,post_park,driver_skill,died,tipped_fell,defence,auto_total,tele_total,end_total
+TS,1,16402,Blue,False,False,False,0,0,False,0,0,0,0,0,0,0,,False,2,False,False,False,0.0,0.0,0.0
+Danique,1,39049,Red,False,True,False,0,0,True,2,0,0,0,0,0,0,,False,1,False,False,False,0.0,0.0,0.0
+Maud,1,17134,Red,False,True,True,4,1,True,11,5,0,0,0,0,0,,False,3,False,False,False,1.0,5.0,3.0
+YSK,1,23452,Blue,False,False,False,0,0,True,0,0,0,0,0,0,0,Could not shoot,False,2,False,False,False,0.0,0.0,0.0
+Danique,2,24090,Red,False,False,True,0,0,True,30,16,3,1,0,0,0,,False,4,False,False,False,0.0,17.0,3.0
+Maud,2,23417,Red,False,True,True,4,2,True,5,4,0,0,0,0,0,"Good auto, did not work as good ",False,4,False,False,False,2.0,4.0,3.0
+SB,2,16409,Blue,False,False,True,0,0,True,4,2,0,0,0,0,0,,False,3,False,False,False,0.0,2.0,3.0
+YSK,2,22173,Blue,False,False,False,0,0,False,0,0,0,0,0,0,0,,False,2,False,False,False,0.0,0.0,0.0
+YSK,3,13953,Blue,False,False,True,0,0,False,0,0,0,0,0,0,0,,False,2,False,False,False,0.0,0.0,3.0
+Maud,3,16785,Red,False,False,True,0,0,False,0,0,0,0,0,0,0,,False,3,False,False,False,0.0,0.0,3.0
+SB,3,32855,Blue,True,False,False,0,0,False,0,0,0,0,0,0,0,,False,1,False,False,False,0.0,0.0,0.0
+Danique,3,23252,Red,False,False,True,0,0,False,4,0,0,0,0,0,0,,False,2,False,False,False,0.0,0.0,3.0
+Danique,4,3977,Red,False,False,False,0,0,False,2,0,0,0,0,0,0,,False,1,False,False,False,0.0,0.0,0.0
+Maud,4,23452,Red,False,False,False,0,0,True,7,1,0,0,0,0,0,,False,2,False,False,False,0.0,1.0,0.0
+YSK,4,26134,Blue,False,False,True,0,0,False,0,0,0,0,0,0,0,,False,2,False,False,False,0.0,0.0,3.0
+SB,4,23417,Blue,False,True,True,4,4,False,14,10,2,1,0,0,0,,False,5,False,False,False,4.0,11.0,3.0
+Maud,5,13953,Red,False,False,True,0,0,False,0,0,0,0,0,0,0,Stood still most of the match did nothing ,False,5,False,False,False,0.0,0.0,3.0
+Danique,5,16785,Red,False,False,True,0,0,False,0,0,0,0,0,0,0,,False,3,False,False,True,0.0,0.0,3.0
+SB,5,22173,Blue,False,False,True,0,0,False,0,0,0,0,0,0,0,Just drivetrain,False,1,False,False,False,0.0,0.0,3.0
+YSK,5,24090,Blue,False,True,True,4,4,True,16,11,2,1,0,0,0,,False,4,False,False,False,4.0,12.0,3.0
+Danique,6,16409,Red,False,False,False,0,0,True,15,10,0,0,0,0,0,,False,4,False,False,False,0.0,10.0,0.0
+Maud,6,16402,Red,False,True,True,0,0,False,0,0,0,0,0,0,0,,False,2,False,False,False,0.0,0.0,3.0
+SB,6,3977,Blue,False,False,False,0,0,False,1,0,0,0,0,0,0,Penalty: 5 pollen,False,2,True,False,False,0.0,0.0,0.0
+YSK,6,23252,Blue,False,False,True,0,0,False,11,0,0,0,0,0,0,,False,2,False,False,False,0.0,0.0,3.0
+Maud,7,26134,Red,False,False,True,0,0,False,7,0,0,0,0,0,0,,False,3,False,False,False,0.0,0.0,3.0
+Danique,7,17134,Red,False,True,True,4,4,True,21,12,0,0,0,0,0,,False,3,False,False,False,4.0,12.0,3.0
+SB,7,39049,Blue,False,True,True,4,2,True,1,1,0,0,0,0,0,,False,3,False,False,False,2.0,1.0,3.0
+YSK,7,32855,Blue,False,False,True,0,0,False,2,0,0,0,0,0,0,,False,2,False,False,False,0.0,0.0,3.0
+Maud,8,23252,Red,False,False,True,0,0,False,0,0,0,0,0,0,0,Did notting ,False,3,False,False,False,0.0,0.0,3.0
+YSK,8,3977,Blue,False,False,True,0,0,False,3,0,0,0,0,0,0,,False,3,False,False,False,0.0,0.0,3.0
+HH,8,24090,Blue,False,True,True,4,3,True,23,13,2,0,0,0,0,,False,5,False,False,False,3.0,13.0,3.0
+HH,9,22173,Blue,False,False,False,0,0,False,0,0,0,0,0,0,0,,False,2,False,False,False,0.0,0.0,0.0
+Danique,9,16402,Red,False,TRUE,TRUE,0,0,TRUE,0,0,0,0,0,0,0,,False,3,FALSE,FALSE,FALSE,0.0,0.0,3.0
+Maud,9,32855,Red,False,False,False,0,0,FALSE,7,0,0,0,0,0,0,,False,2,FALSE,FALSE,FALSE,0.0,0.0,0.0
+YSK,9,16785,Blue,False,False,TRUE,0,0,FALSE,1,1,0,0,0,0,0,,False,3,FALSE,FALSE,FALSE,0.0,1.0,3.0
+Maud,10,13953,Red,False,False,TRUE,0,0,FALSE,0,0,0,0,0,0,0,,False,2,FALSE,FALSE,FALSE,0.0,0.0,3.0
+Danique,10,39049,Red,False,TRUE,TRUE,4,1,TRUE,4,2,0,0,0,0,0,,False,2,FALSE,FALSE,FALSE,1.0,2.0,3.0
+Leo,10,16409,Blue,False,False,TRUE,0,0,TRUE,5,0,0,0,0,0,0,,False,5,FALSE,FALSE,FALSE,0.0,0.0,3.0
+YSK,10,17134,Blue,False,TRUE,TRUE,4,4,TRUE,28,13,0,0,0,0,0,,False,3,FALSE,FALSE,FALSE,4.0,13.0,3.0
+YSK,11,16402,Blue,False,TRUE,TRUE,0,0,FALSE,0,0,0,0,0,0,0,,False,2,FALSE,FALSE,FALSE,0.0,0.0,3.0
+Danique,11,26134,Red,False,False,FALSE,0,0,FALSE,2,1,0,0,0,0,0,Battery out of robot,False,1,FALSE,TRUE,FALSE,0.0,1.0,0.0
+Leo,11,23417,Blue,False,TRUE,TRUE,4,4,FALSE,19,12,2,2,0,0,0,,False,5,FALSE,FALSE,FALSE,4.0,14.0,3.0
+Maud,11,32855,Red,False,False,FALSE,0,0,FALSE,3,0,0,0,0,0,0,,False,2,FALSE,FALSE,FALSE,0.0,0.0,0.0
+Leo,12,39049,Blue,False,TRUE,TRUE,4,1,FALSE,3,1,0,0,0,0,0,,False,4,FALSE,FALSE,FALSE,1.0,1.0,3.0
+YSK,12,3977,Blue,False,False,TRUE,0,0,FALSE,2,0,0,0,0,0,0,,False,4,FALSE,FALSE,FALSE,1.0,1.0,3.0
+Maud,12,13953,Red,False,False,True,0,0,False,0,0,0,0,0,0,0,,False,3,False,False,True,0.0,0.0,3.0
+Danique,12,22173,Red,False,True,True,0,0,False,0,0,0,0,0,0,0,,False,2,False,False,False,0.0,0.0,3.0
+Leo,13,17134,Blue,False,False,True,0,0,False,8,5,0,0,0,0,0,,False,4,False,False,False,0.0,5.0,3.0
+YSK,13,23417,Blue,False,True,True,4,3,False,24,22,3,2,0,0,0,,False,5,False,False,False,3.0,24.0,3.0
+Maud,13,24090,Red,False,True,True,4,1,True,25,12,0,0,0,0,0,,False,5,False,False,False,1.0,12.0,3.0
+Danique,13,23252,Red,False,False,True,0,0,False,0,0,0,0,0,0,0,,False,3,False,False,False,0.0,0.0,3.0
+Leo,14,23452,Blue,False,False,True,0,0,False,4,1,0,0,0,0,0,,False,3,False,False,False,0.0,1.0,3.0
+Maud,14,16785,Red,False,False,False,0,0,True,2,2,0,0,0,0,0,,False,5,True,False,False,0.0,2.0,0.0
+Danique,14,16409,Red,False,True,True,0,0,True,5,0,0,0,0,0,0,,False,3,False,False,False,0.0,0.0,3.0
+YSK,14,26134,Blue,False,False,True,0,0,True,14,7,0,0,0,0,0,,False,3,False,False,False,0.0,7.0,3.0
+Maud,15,39049,Red,False,False,True,0,0,True,3,0,0,0,0,0,0,,False,3,False,False,False,0.0,0.0,3.0
+YSK,15,32855,Blue,False,False,True,0,0,True,5,0,0,0,0,0,0,,False,2,False,False,False,0.0,0.0,3.0
+Leo,15,3977,Blue,False,False,False,0,0,False,3,1,0,0,0,0,0,,False,3,False,False,False,0.0,1.0,0.0
+Danique,15,24090,Red,False,True,True,4,4,True,27,13,0,0,0,0,0,,False,5,False,False,False,4.0,13.0,3.0
+YSK,16,17134,Blue,False,True,True,4,4,True,8,2,0,0,0,0,0,,False,3,False,False,False,4.0,2.0,3.0
+Maud,16,26134,Red,False,False,True,0,0,True,14,5,0,0,0,0,0,,False,5,False,False,False,0.0,5.0,3.0
+TS,16,22173,Red,False,True,True,0,0,False,0,0,0,0,0,0,0,Drivetrain bot,False,3,False,False,False,0.0,0.0,3.0
+Leo,16,23252,Blue,False,False,True,4,4,True,6,3,0,0,0,0,0,,False,3,False,False,False,4.0,3.0,3.0
+Danique,17,23417,Red,False,True,True,4,4,False,28,18,3,2,0,0,0,,False,5,False,False,False,4.0,20.0,3.0
+Maud,17,23452,Red,False,True,True,0,0,False,0,0,0,0,0,0,0,,False,5,False,False,False,0.0,0.0,3.0
+Leo,17,16402,Blue,False,True,True,0,0,False,0,0,0,0,0,0,0,,False,4,False,False,True,0.0,0.0,3.0
+YSK,17,13953,Blue,False,False,True,0,0,False,0,0,0,0,0,0,0,,False,2,False,False,False,0.0,0.0,3.0
+Leo,18,17134,Blue,False,True,True,4,3,False,13,3,0,0,0,0,0,,False,2,False,False,False,3.0,3.0,3.0
+YSK,18,16785,Blue,False,False,False,0,0,False,0,0,0,0,0,0,0,,False,3,False,False,True,0.0,0.0,0.0
+Maud,18,3977,Red,False,False,True,0,0,False,1,0,0,0,0,0,0,,False,5,False,False,False,0.0,0.0,3.0
+Danique,18,16409,Red,False,True,False,4,1,True,0,0,0,0,0,0,0,,False,5,False,False,False,1.0,0.0,0.0
+Leo,19,24090,Blue,False,True,True,4,3,FALSE,8,2,0,0,0,0,0,,False,3,FALSE,FALSE,FALSE,3.0,2.0,3.0
+YSK,19,13953,Blue,False,FALSE,FALSE,0,0,FALSE,0,0,0,0,0,0,0,,False,1,FALSE,FALSE,FALSE,0.0,0.0,3.0
+Maud,19,26134,Red,False,FALSE,TRUE,0,0,TRUE,13,6,0,0,0,0,0,,False,5,FALSE,FALSE,FALSE,0.0,6.0,3.0
+Danique,19,16402,Red,False,TRUE,TRUE,0,0,FALSE,0,0,0,0,0,0,0,,False,2,FALSE,FALSE,FALSE,0.0,0.0,3.0
+Maud,20,22173,Red,False,FALSE,TRUE,0,0,FALSE,0,0,0,0,0,0,0,,False,5,FALSE,FALSE,FALSE,0.0,0.0,3.0
+SB,20,32855,Red,False,FALSE,FALSE,0,0,TRUE,8,2,0,0,0,0,0,,False,2,FALSE,FALSE,FALSE,0.0,2.0,0.0
+YSK,20,23452,Blue,False,FALSE,FALSE,0,0,FALSE,7,2,0,0,0,0,0,,False,2,FALSE,FALSE,FALSE,0.0,2.0,0.0
+Leo,20,16409,Blue,False,FALSE,FALSE,0,0,TRUE,9,4,0,0,0,0,0,2 penalties ,False,4,FALSE,FALSE,FALSE,0.0,4.0,0.0
+YSK,21,39049,Blue,False,TRUE,TRUE,4,2,FALSE,4,1,0,0,0,0,0,,False,3,FALSE,FALSE,FALSE,2.0,1.0,3.0
+Maud,21,23252,Red,False,FALSE,TRUE,0,0,TRUE,0,0,0,0,0,0,0,,False,5,FALSE,FALSE,FALSE,0.0,0.0,3.0
+SB,21,23417,Red,False,TRUE,TRUE,4,3,FALSE,22,19,3,3,0,0,0,,False,5,FALSE,FALSE,FALSE,3.0,22.0,3.0
+Leo,21,16785,Blue,False,FALSE,TRUE,0,0,TRUE,4,1,0,0,0,0,0,,False,4,TRUE,FALSE,FALSE,0.0,1.0,3.0
