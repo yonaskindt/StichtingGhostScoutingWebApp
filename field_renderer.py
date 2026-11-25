@@ -1,13 +1,16 @@
-import os
-import json
 import base64
+import json
+import os
+from pathlib import Path
+
 import pandas as pd
 import streamlit.components.v1 as components
 
-FIELD_IMG_PATH = os.path.join("assets", "ftc_field.png")
+BASE_DIR = Path(__file__).resolve().parent
+FIELD_IMG_PATH = str(BASE_DIR / "assets" / "ftc_field.png")
 FIELD_SIZE = 440  # Compact square size to fit without scrolling
 
-_COMPONENT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "_ftc_field_comp")
+_COMPONENT_DIR = str(BASE_DIR / "_ftc_field_comp")
 
 _COMPONENT_HTML = """<!DOCTYPE html>
 <html>
@@ -184,8 +187,11 @@ _COMPONENT_HTML = """<!DOCTYPE html>
 
 
 def _get_field_data_uri() -> str:
-    if os.path.exists(FIELD_IMG_PATH):
-        with open(FIELD_IMG_PATH, "rb") as f:
+    resolved_path = Path(FIELD_IMG_PATH)
+    if not resolved_path.is_absolute():
+        resolved_path = BASE_DIR / resolved_path
+    if resolved_path.exists():
+        with open(resolved_path, "rb") as f:
             b64 = base64.b64encode(f.read()).decode()
         return f"data:image/png;base64,{b64}"
     return ""
@@ -199,7 +205,11 @@ def _ensure_component_files(img_uri: str) -> str:
         .replace("__SIZE__", str(FIELD_SIZE))
         .replace("__IMG_SRC__", img_uri)
     )
-    if not os.path.exists(index_path) or open(index_path, "r", encoding="utf-8").read() != rendered:
+    existing = ""
+    if os.path.exists(index_path):
+        with open(index_path, "r", encoding="utf-8") as f:
+            existing = f.read()
+    if existing != rendered:
         with open(index_path, "w", encoding="utf-8") as f:
             f.write(rendered)
     return _COMPONENT_DIR
